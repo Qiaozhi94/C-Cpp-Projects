@@ -7,8 +7,8 @@ int main()
     int sum = 0;
     for (int val = 1; val<=10; ++val)
     sum += val;
-    //cout << "1åˆ°10ä¹‹å’Œæ˜¯" << sum <<endl;
-    cout << "1åˆ°10ä¹‹å’Œæ˜¯" << sum <<endl;
+    //cout << "1µ½10Ö®ºÍÊÇ" << sum <<endl;
+    cout << "1µ½10Ö®ºÍÊÇ" << sum <<endl;
     system("pause");
     return 0;
 

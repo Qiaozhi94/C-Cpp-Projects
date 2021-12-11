@@ -2,17 +2,14 @@
 #include <windows.h>
 using namespace std;
 
-
 int main()
 {
-    int num = 0, val = 1;
-    for (val <= 10)   {
+    int num = 0;
+    for (int val = 1; val <= 10; ++val)
+        num += val;
+        
+    cout << "1µ½10Ö®ºÍÊÇ" << num << endl;
 
-        num = num + val;
-        val = val + 1
-    }
-    cout << "1åˆ°10ä¹‹å’Œæ˜¯" << num << endl;
     system("pause");
-
     return 0;
 }

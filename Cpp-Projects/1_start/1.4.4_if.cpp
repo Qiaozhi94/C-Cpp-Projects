@@ -12,12 +12,12 @@ int main()
             if (Val == currVal)
                 ++cnt;
             else {
-                cout << currVal << "occurs" << cnt << "times" <<endl;
+                cout << currVal << " occurs " << cnt << " times " <<endl;
                 currVal = Val;
                 cnt = 1;
             }
         }
-        cout << currVal << "occurs" << cnt << "times" << endl;
+        cout << currVal << " occurs " << cnt << " times " << endl;
 
             }
     system("pause");

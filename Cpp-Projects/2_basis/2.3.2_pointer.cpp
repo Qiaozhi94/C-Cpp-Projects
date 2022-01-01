@@ -1,12 +1,10 @@
 //Author: Qiaozhi LI
 //Language: C++
 
-
 #include <iostream>
 #include <windows.h>
 
 using namespace std;
-
 
 
 int main()
